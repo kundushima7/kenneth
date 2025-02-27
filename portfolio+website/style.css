@@ -1,0 +1,165 @@
+.nav-home{
+    background-color:#fd7e14;
+    border-radius: 4px;
+}
+
+.nav-home{
+    color: black;
+}
+
+.section-with-background {
+    background-image: url('images/Background\ 1.png'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+/*one image section styling goes here*/
+.image-section {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/*one image section goes hare*/
+.image-section {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.image-sections img {
+    position: absolute;
+    bottom: -50px; /* Adjust the value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px; /* Adjust the size as needed */
+    height:250px;
+    border-radius: 10px; /* Optional for rounded corners */
+    border: 20px solid gold;
+}
+.content-sections {
+    height: 300px; /* Adjust the height as needed */
+    background-color:white; /* Adjust the background color as needed */
+}
+
+.content-section {
+    height: 400px; /* Adjust the height as needed */
+    background-color:black; /* Adjust the background color as needed */
+}
+/* end of one image section goes hare*/
+
+/*seven images section*/
+.carousel {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    background-color:none; /* Adjust the background color as needed */
+}
+
+.carousel img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px; /* Optional for rounded corners */
+}
+
+.carousel-content {
+    display: inline-block;
+    animation: scroll 40s linear infinite;
+}
+
+
+
+@keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%);} 
+/*seven images section*/
+    }
+
+    .card-title{
+        color: #fd7e14;
+    }
+/*my code styling*/
+    .moving-text {
+        animation: move 10s linear infinite;
+        color: red;
+        animation: color-change 5s infinite;
+    }
+    @keyframes move {
+        from {transform: translateX(0);}
+        to {transform: translateX(100%);}
+    }
+    @keyframes color-change {
+        0% {color: red;}
+        25% {color: blue;}
+        50% {color: green;}
+        75% {color: yellow;}
+        100% {color: red;}
+    }
+    .code-snippet {
+        height: 200px;
+        overflow-y: scroll;
+    }
+/* end of my code styling*/ 
+.Centered{
+    margin-right: 10px;
+}
+/*my Here’s freedom section*/
+
+
+  .img-small {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .custom-paragraph {
+    margin-left: 10px;
+  }
+/*my Here’s freedom section*/
+
+/*hero section five*/
+.content-sections {
+    padding: 2rem;
+    
+  }
+  .left-section {
+    background-color: #0056b3;
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  .cta-button {
+    margin-top: 1rem;
+  }
+
+  .return{
+    color: #fd7e14;
+  }
+
+  /*my footer section*/
+  .footer-column {
+    margin-bottom: 20px;
+}
+.footer-social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+}
+.span{
+    background-color: #fd7e14;
+}
+span{
+    
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+}
+
+.display{
+    
+    font-weight: bold;
+}
